@@ -1,0 +1,26 @@
+.suc-card {
+	transition: box-shadow 300ms;
+	transition-timing-function: ease-out;
+}
+.suc-card picture img {
+	filter: brightness(25%);
+	transition: filter 300ms;
+}
+.suc-card p.more-info {
+	transition: bottom 300ms, opacity 300ms;
+	bottom: 1rem;
+}
+.suc-card:hover p.more-info {
+	opacity: 1;
+	bottom: 1.25rem;
+}
+.suc-card:hover picture img {
+	filter: brightness(30%);
+}
+.suc-card:hover {
+	box-shadow: 0px 0px 0px 6px rgb(221, 219, 219);
+}
+
+.suc-card:active {
+	box-shadow: 0px 0px 0px 4px rgb(221, 219, 219);
+}

@@ -1,0 +1,31 @@
+table {
+	border-collapse: collapse;
+}
+th, td {
+	border: 1px solid #f1f1f1;
+	padding: 12px;
+	/* white-space: nowrap; */
+}
+
+tr:nth-child(even) {
+	color: #dbeafe;
+	background: #3b82f6;
+}
+tr:nth-child(even) a{
+	color: #dbeafe;
+}
+tr:nth-child(even):hover {
+	background: #2563eb;
+}
+
+tr:nth-child(odd):hover {
+	background: #f1f1f1;
+}
+
+table th {
+	padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #1d4ed8;
+  color: white;
+}
